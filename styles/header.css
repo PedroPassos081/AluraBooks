@@ -28,8 +28,27 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vw;
 }
 
 .container-button:checked ~ .lista-menu {
   display: block;
+}
+
+.lista-menu-titulo,
+.lista-menu {
+  padding: 1em;
+  background-color: #ffff;
+}
+
+.lista-menu-titulo {
+  color: var(--laranja);
+}
+
+.lista-menu-link {
+  background: #002f52;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
 }
