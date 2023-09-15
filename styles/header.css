@@ -57,3 +57,50 @@
 .container-button {
   display: none;
 }
+
+.container-title {
+  display: none;
+}
+
+.opcoes {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-title,
+  .container-title--negrito {
+    font-family: var(--fonte-secundaria);
+    font-size: 30px;
+  }
+
+  .container-title {
+    font-weight: 400;
+    display: block;
+  }
+
+  .container-title--negrito {
+    font-weight: 700;
+  }
+
+  .opcoes {
+    display: flex;
+  }
+
+  .opcoes-item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+
+  .opcoes-link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+
+  .container-image-transparent {
+    display: none;
+  }
+
+  .cabecalho-menu-hamburguer {
+    display: none;
+  }
+}
